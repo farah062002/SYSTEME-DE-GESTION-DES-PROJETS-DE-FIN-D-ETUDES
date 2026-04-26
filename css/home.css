@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial,sans-serif;
+    background: url(/images/univ_background.jpg) no-repeat center/cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6A9C89;
+    padding: 10px 20px;
+    color: white;
+}
+.logo img {
+    height: 50px;
+  }
+  nav a { 
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px ;
+    
+  }
+  /***************** page login & ForgetThePassword ********************/
+
+  .container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 60px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-width: 400px;
+    text-align: center;
+    
+  }
+  .container h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+  }
+input[type="text"],
+input[type="password"],
+input[type="email"]  {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  
+  }
+  select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  .jury-form{
+   
+    gap: 2px;
+  }
+  .container form label{
+    align-self: flex-start;
+  }  
+
+  button {
+    background-color: #c4f43d;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 999px; /* fully rounded */
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    align-self: center;
+  }
+  button:hover {
+    background-color: #ddd;
+  }
+  .forgot-password {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #333;
+  }
+  footer {
+    background-color: #6A9C89;
+    color: white;
+    padding: 20px; 
+    font-size: 14px; 
+    
+
+
+
+  }
+  footer h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  footer input[type="email"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+  }
+  .footer-links {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 1000px;
+    
+  }
+
+  .aide-list, .plus-list{
+    margin-right: 20px; 
+    margin-bottom: 0;
+    
+  }
+
+  .footer-links ul {
+    list-style: none;
+  }
+  .footer-links li {
+  margin-bottom: 5px;
+}
+

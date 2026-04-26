@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tableau de bord | Binôme</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="/images/LOGO_UNIV_ORAN_1_Anglais.png" alt="Université d'Oran 1">
+        </div>
+        <nav>
+          <a href="#">À propos</a>
+          <a href="#">Contacter</a>
+          <a href="#">Déconnecter</a>
+        </nav>
+       </header>
+
+     <main>
+     <div class="container">
+       <h2>Création d'un groupe de jury</h2>
+       <form action="/soumettre-soutenance" method="post" class="jury-form">
+         <label for="jury1">Jury 1:</label>
+         <input type="text" id="jury1" name="jury1" required><br><br>
+  
+         <label for="jury2">Jury 2:</label>
+         <input type="text" id="jury2" name="jury2" required><br><br>
+  
+         <label for="jury3">Jury 3:</label>
+        <input type="text" id="jury3" name="jury3" required><br><br>
+  
+        <label for="memoire">Sélectionner le mémoire:</label>
+        <select id="memoire" name="memoire">
+           <option value="memoire1">Mémoire 1</option>
+           <option value="memoire2">Mémoire 2</option>
+      <!-- Ajoutez d'autres options dynamiquement si besoin -->
+        </select><br><br>
+  
+    <label for="examinateur">Sélectionner l'examinateur principal:</label>
+    <select id="examinateur" name="examinateur">
+      <option value="jury1">Jury 1</option>
+      <option value="jury2">Jury 2</option>
+      <option value="jury3">Jury 3</option>
+    </select><br><br>
+  
+    <button type="submit">Créer le groupe</button>
+  </form>
+</main>
+<footer>
+ <div class="connecter">
+     <h4>Rester en Contacte</h4>
+     <input type="email" placeholder="Email">
+    
+ </div>
+
+ <div class="footer-links">
+     <div class="plus-list">
+         <h4>Plus</h4>
+         <ul>
+             <li>Université</li>
+             <li>Faculté</li>
+             <li>Qui nous sommes</li>
+             <li>Bibliothèque</li>
+             <li>E-learning</li>
+         </ul>
+     </div>
+     <div class="aide-list">
+         <h4>Aide</h4>
+         <ul>
+             <li>FAQ</li>
+             <li>Termes & conditions</li>
+             <li>Reporting</li>
+             <li>Documentation</li>
+             <li>Support Policy</li>
+             <li>Privacy</li>
+           </ul>
+     </div>
+    
+ </div>
+ 
+ <p>&copy; 2025 Université d'Oran 1 Ahmed Ben Bella. All rights reserved.</p>
+</footer>
+
