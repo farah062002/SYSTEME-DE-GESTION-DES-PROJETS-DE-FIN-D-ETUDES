@@ -69,10 +69,5 @@ Le système a été modélisé à l’aide de diagrammes UML :
 * `UML/` → diagrammes
 * `css/`, `images/` → ressources
 
----
-
-## 📄 Documentation
-
-Le rapport complet du projet est disponible dans le repository.
 
 
